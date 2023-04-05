@@ -1,0 +1,21 @@
+.menuNavegacion{
+    display: inline-flexbox;
+    background-color: black;
+}
+
+.menuNavegacion_item{
+    display: inline-block;
+}
+
+.menuNavegacion_item a{
+    color: white;
+    padding-left: 10px;
+    text-decoration: none;
+
+}
+body{
+    background-color: black;
+}
+p{
+    color: crimson;
+}
