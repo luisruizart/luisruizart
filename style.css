@@ -11,6 +11,7 @@
     color: white;
     padding-left: 10px;
     text-decoration: none;
+    text-size-adjust: 35px;
 
 }
 body{
@@ -18,4 +19,8 @@ body{
 }
 p{
     color: crimson;
+    padding-left: 100px;
+}
+article{
+    color: darkred;
 }
