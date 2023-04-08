@@ -1,7 +1,6 @@
-# web
- Mi pagina web personal
+#luisruiz.art
  Mi pagina web personal.
- Esta es mi pagina donde mostrare mis proyectos personales, y comentare mis procesos creativos, 
+ Esta es mi pagina donde mostrare mis proyectos personales, y comentare mis procesos creativos.
 
 Si te gusta su código puedes usarlo libremente y cualquier aporte sera muy bien recibido.
 

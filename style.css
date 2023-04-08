@@ -2,25 +2,49 @@
     display: inline-flexbox;
     background-color: black;
 }
-
 .menuNavegacion_item{
-    display: inline-block;
+    display: inline-flex;
+    justify-content: center;
+    
 }
-
 .menuNavegacion_item a{
-    color: white;
-    padding-left: 10px;
+    font-size: 20px;
+    color: red;
     text-decoration: none;
-    text-size-adjust: 35px;
-
+    border: groove rgb(88, 118, 43);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    
 }
+.menuNavegacion_item a:hover{
+    color: blue;
+    background-color: grey;
+}
+
 body{
     background-color: black;
 }
 p{
     color: crimson;
-    padding-left: 100px;
+    padding-left: 40px;
 }
 article{
     color: darkred;
+    display: inline;
+}
+#textoFotos{
+    color: brown;
+}
+
+img{
+    max-width: 500px;
+    display: inline;
+    align-items: end;
+}
+
+footer{
+    color: brown;
+    text-align: center;
 }
