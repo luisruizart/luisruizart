@@ -4,7 +4,6 @@
 }
 .menuNavegacion_item{
     display: inline-flex;
-    justify-content: center;
     
 }
 .menuNavegacion_item a{
@@ -19,12 +18,12 @@
     
 }
 .menuNavegacion_item a:hover{
-    color: blue;
-    background-color: grey;
+    color: orange;
+    background-color: gray;
 }
 
 body{
-    background-color: black;
+    background-color: black; 
 }
 p{
     color: crimson;
@@ -47,4 +46,7 @@ img{
 footer{
     color: brown;
     text-align: center;
+}
+.icon{
+    max-height: 30px;
 }
