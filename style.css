@@ -1,10 +1,20 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Comentarios*/
 .menuNavegacion{
-    display: inline-flexbox;
+    display: flex;
+    justify-content: center;
     background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
 }
 .menuNavegacion_item{
-    display: inline-flex;
-    
+       display: inline-flex;
 }
 .menuNavegacion_item a{
     font-size: 20px;
@@ -15,38 +25,49 @@
     padding-right: 5px;
     padding-top: 4px;
     padding-bottom: 4px;
-    
 }
 .menuNavegacion_item a:hover{
     color: orange;
     background-color: gray;
 }
-
 body{
     background-color: black; 
+    
 }
+.imagen5{
+    justify-content: center;
+    display: flex;
+}
+
 p{
     color: crimson;
     padding-left: 40px;
+    
 }
-article{
-    color: darkred;
-    display: inline;
-}
+
 #textoFotos{
     color: brown;
 }
-
 img{
     max-width: 500px;
-    display: inline;
-    align-items: end;
+    padding-top: 10px;
 }
 
 footer{
     color: brown;
     text-align: center;
+    justify-content: center;
+    padding-bottom: 10px;
 }
 .icon{
     max-height: 30px;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+form{
+    display: block;
+    padding-top: 20px;
+    color: aqua;
+    justify-content: center;
+    text-align: center;
 }
